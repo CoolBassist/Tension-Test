@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    color: #525151;
+    height: 50%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 50%;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+    left: 25%;
+    top: 25%
+}
