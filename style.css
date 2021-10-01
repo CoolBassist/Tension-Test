@@ -4,9 +4,9 @@ body {
 
 .container {
     color: #525151;
-    height: 50%;
+    height: 75%;
     /* Full-height: remove this if you want "auto" height */
-    width: 50%;
+    width: 75%;
     /* Set the width of the sidebar */
     position: fixed;
     /* Fixed Sidebar (stay in place on scroll) */
@@ -18,6 +18,6 @@ body {
     /* Disable horizontal scroll */
     padding-top: 20px;
     text-align: center;
-    left: 25%;
-    top: 25%
+    left: 12%;
+    top: 12%
 }
