@@ -1,6 +1,63 @@
 var question = -1;
 
-var questions = ["There are no objective moral standards; moral judgements are merely an expression of the values of particular cultures.", "So long as they do not harm others, individuals should be free to persue their own ends.", "People should be allowed travel by car even if they can walk, cycle or take a train instead.", "It is always wrong to take another person's life.", "The right to life is so fundamental that financial considerations are irrelevant in any effort to save lives.", "Volantary euthanasia should remain illegal.", "Homosexuality is wrong because it is unnatural.", "It is not reasonable to believe in the existance of a thing without even the possibility of evidence for its existance.", "The possession of drugs for personal use should stay criminalised. ", "There exists an all-powerful, loving, and good God.", "The Second World War was a just war.", "Having made a choice, it is always possible that one might have chosen otherwise.", "It is okay to judge individuals solely on their merits.", "Judgements about works of art are purely matters of taste.", "On bodily death, a person continues to exist in a non-physical form.", "The government should not permit the sale of health treatments which have not been tested for efficacy or safety.", "There are no objective truths about matters of fact; 'truth' is always relative to particular culture and individuals.", "Athiesm is a faith just like any other, because it is not possible to prove the non-existance of God.", "Proper sanitation and medicines are generally good for a society.", "In certain circumstances, it might be disirable to discriminate positively in favour of a person as recompense for harms done to him/her in the past.", "Alternative and complementary medicines are as valuable as mainstream medicine.", "Severe brain damage can rob a person of all consciousness and selfhood.", "To allow an innocent child to suffer needlessly when one could easily prevent it is morally reprehensible.", "The environment should not be damaged unnecessarily in the persuit of human ends.", "Michelangelo is one of history's finest artists.", "Individuals have sole rights over their own bodies.", "Acts of genocide stand as a testament to man's ability to do great evil.", "The holocaust is a historical reality which took place more or less as the history books report.", "Governments should not be allowed to increase taxes sharply to save lives in the developing world.", "The future is fixed; how one's life unfolds is a matter of destiny."]
+var questions = ["There are no objective moral standards; moral judgements are merely an expression of the values of particular cultures.",
+
+    "So long as they do not harm others, individuals should be free to persue their own ends.",
+
+    "People should not travel by car if they can walk, cycle or take a train instead.",
+
+    "It is always wrong to take another person's life.",
+
+    "The right to life is so fundamental that financial considerations are irrelevant in any effort to save lives.",
+
+    "Volantary euthanasia should remain illegal.",
+
+    "Homosexuality is wrong because it is unnatural.",
+
+    "It is quite reasonable to believe in the existance of a thing without even the possibility of evidence for its existance.",
+
+    "The possession of drugs for personal use should be decriminalised.",
+
+    "There exists an all-powerful, loving, and good God.",
+
+    "The Second World War was a just war.",
+
+    "Having made a choice, it is always possible that one might have chosen otherwise.",
+
+    "It is not always right to judge individuals solely on their merits.",
+
+    "Judgements about works of art are purely matters of taste.",
+
+    "On bodily death, a person continues to exist in a non-physical form.",
+
+    "The government should not permit the sale of health treatments which have not been tested for efficacy or safety.",
+
+    "There are no objective truths about matters of fact; 'truth' is always relative to particular culture and individuals.",
+
+    "Athiesm is a faith just like any other, because it is not possible to prove the non-existance of God.",
+
+    "Proper sanitation and medicines are generally good for a society.",
+
+    "In certain circumstances, it might be disirable to discriminate positively in favour of a person as recompense for harms done to him/her in the past.",
+
+    "Alternative and complementary medicines are as valuable as mainstream medicine.",
+
+    "Severe brain damage can rob a person of all consciousness and selfhood.",
+
+    "To allow an innocent child to suffer needlessly when one could easily prevent it is morally reprehensible.",
+
+    "The environment should not be damaged unnecessarily in the persuit of human ends.",
+
+    "Michelangelo is one of history's finest artists.",
+
+    "Individuals have sole rights over their own bodies.", "Acts of genocide stand as a testament to man's ability to do great evil.",
+
+    "The holocaust is a historical reality which took place more or less as the history books report.",
+
+    "Governments should be allowed to increase taxes sharply to save lives in the developing world.",
+
+    "The future is fixed; how one's life unfolds is a matter of destiny."
+]
 
 var answers = new Array(30);
 
